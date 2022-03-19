@@ -1,1 +1,245 @@
 /* You can add global styles to this file, and also import other style files */
+.inline {
+  display: flex;
+}
+.left {
+  display: flex;
+  float: left;
+  margin-right: 133px;
+}
+.right {
+  display: flex;
+  float: left;
+}
+.leftDuration {
+  display: flex;
+  float: left;
+  margin-right: 122px;
+}
+.leftFare {
+  display: flex;
+  float: left;
+  margin-right: 165px;
+  margin-left: -10px;
+}
+fieldset#search {
+  background: #f1f1f1;
+  border: 0 none;
+  /* width: 99%; */
+}
+
+#buttonBar .firstLeft {
+  width: auto;
+  margin-right: 2px;
+  float: left;
+  text-align: left;
+}
+
+#buttonBar .nextLeft {
+  width: auto;
+  margin-left: 20px;
+  float: left;
+  text-align: left;
+}
+
+#buttonBar .firstRight {
+  width: auto;
+  float: right;
+  margin-left: 2px;
+  text-align: left;
+}
+
+#buttonBar .nextRight {
+  width: auto;
+  margin-right: 20px;
+  float: right;
+  text-align: left;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+table {
+  width: 111.5%;
+}
+
+.leftIcon {
+  margin-right: 9px;
+}
+.menu {
+  overflow: hidden;
+  background: #3f51b5;
+  font-size: 16px;
+  max-width: 167px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu li.active a {
+  color: #b63b4d;
+}
+
+.menu a {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.menu a:hover {
+  background: #336eff;
+}
+
+ul {
+  list-style-type: none;
+}
+#Lang .mat-select {
+  width: 45%;
+}
+#Lang .mat-form-field {
+  text-align: center;
+}
+#Lang {
+  text-align: center;
+  width: 13%;
+  margin-bottom: -30px;
+}
+
+#footer .mat-toolbar span {
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 0.65em;
+  margin-top: 10px;
+}
+
+#titbar {
+  background: #b2cdd7;
+  padding: 5px 0;
+  margin-top: 2px;
+}
+
+#titbar h2 {
+  font-family: Arial, Helvetica, Sans-serif;
+  padding-left: 10px;
+  margin: 0;
+}
+
+#bdcrumbs {
+  clear: left;
+  font-size: 0.8em;
+  margin: -5px 0 0 6px;
+  text-align: left;
+}
+
+#bdcrumbs p {
+  margin: 5px 0 0 0;
+}
+
+#head {
+  display: flex;
+  margin-bottom: -22px;
+}
+
+#head img {
+  width: 9%;
+  padding-left: 33px;
+}
+#topside {
+  width: 86%;
+  padding-top: 0px;
+  margin-left: 33px;
+}
+#tools {
+  text-align: right;
+  margin: 1px 6px -10px 0px;
+  padding-right: 20px;
+}
+
+#tools li {
+  display: inline;
+  color: #666;
+  background: #fff;
+}
+
+#tools a,
+#tools a:link,
+#tools a:visited {
+  font-size: 0.9em;
+  color: #666;
+  background: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#tools a:hover {
+  text-decoration: none;
+}
+#mainContainer {
+  float: left;
+  margin: 0;
+  width: 100%;
+  display: flex;
+}
+
+#mainMargin {
+  margin-left: 125px;
+}
+
+#main {
+  width: 100%;
+  float: left;
+  text-align: left;
+  margin-left: -97px;
+}
+
+#left {
+  float: left;
+  width: 100px;
+}
+
+#mainBanner {
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  float: left;
+  margin: 0;
+  padding-top: 2px;
+  width: 111.5%;
+}
+#mainBanner {
+  background: none no-repeat scroll left bottom #3f51b5;
+  margin: 40px 0 0 2px;
+}
+
+#mainBanner h3 {
+  float: left;
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: normal;
+  padding-left: 8px;
+  text-align: left;
+  width: 50%;
+}
+#mainBanner p {
+  margin: 0;
+  float: right;
+}
+#mainBanner p span {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 0 2px 0 0;
+  padding: 0;
+}
+
+.search {
+  margin-left: 66px;
+}
+
+.mat-elevation-z8 {
+  box-shadow: unset;
+}
